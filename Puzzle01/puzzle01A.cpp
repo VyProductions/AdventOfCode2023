@@ -42,6 +42,8 @@ int main() {
 
     cout << sum(nums) << endl;
 
+    infile.close();
+
     return 0;
 }
 
