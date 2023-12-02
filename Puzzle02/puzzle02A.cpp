@@ -1,9 +1,6 @@
-#include <cmath>
 #include <fstream>
 #include <iostream>
 #include <string>
-#include <list>
-#include <vector>
 
 using std::cin;
 using std::cout;
@@ -11,7 +8,6 @@ using std::endl;
 using std::ifstream;
 using std::getline;
 using std::string;
-using std::vector;
 
 const int MAX_RED   = 12;
 const int MAX_GREEN = 13;
