@@ -1,8 +1,6 @@
-#include <cmath>
 #include <fstream>
 #include <iostream>
 #include <string>
-#include <list>
 #include <vector>
 
 using std::cin;
@@ -28,7 +26,7 @@ int main() {
                     num.push_back(*i);
                     num.push_back(' ');  // placeholder for 2nd digit
                 } else {
-                    num.back() = *i;  // replace
+                    num.back() = *i;  // replace 2nd digit
                 }
             }
         }
