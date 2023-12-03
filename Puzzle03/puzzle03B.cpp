@@ -103,7 +103,7 @@ int main() {
 
 bool hasAdjacentGear(char data[][DIM + 2], int r, int c, int& R, int& C) {
     // Adjacency defined within the 8 surrounding cells of a center cell for a
-    // 3x3 grid. Adjaceny does not exist for numbers in the same row.
+    // 3x3 grid.
     return (data[r-1][c-1] == '*' && (R = r-1) && (C = c-1)) ||
            (data[r-1][c]   == '*' && (R = r-1) && (C = c  )) ||
            (data[r-1][c+1] == '*' && (R = r-1) && (C = c+1)) ||
