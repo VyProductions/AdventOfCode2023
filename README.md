@@ -6,3 +6,4 @@ Day # | Problem Solved | Bonus Solved
 1|✅|✅
 2|✅|✅
 3|✅|✅
+4|✅|✅
