@@ -1,16 +1,10 @@
 #include <fstream>
 #include <iostream>
-#include <string>
-#include <unordered_map>
 #include <vector>
 
 using std::cout;
 using std::endl;
 using std::ifstream;
-using std::istream;
-using std::pair;
-using std::string;
-using std::unordered_map;
 using std::vector;
 
 bool all_zeroes(vector<long>::iterator first, vector<long>::iterator last);
