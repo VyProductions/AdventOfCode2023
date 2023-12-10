@@ -13,14 +13,14 @@ puzzleA: puzzleA.o
 	@$(CXX) $(CXXFLAGS) -o puzzleA puzzleA.o
 
 puzzleB: puzzleB.o
-	@$(CXX) $(CXXFLAGS) -o puzzleB puzzleB.o -fopenmp
+	@$(CXX) $(CXXFLAGS) -o puzzleB puzzleB.o
 
 puzzleA.o:
 	@$(CXX) $(CXXFLAGS) -c $(PROJECT)A.cpp
 	@mv $(PROJECT)A.o puzzleA.o
 
 puzzleB.o:
-	@$(CXX) $(CXXFLAGS) -c $(PROJECT)B.cpp -fopenmp
+	@$(CXX) $(CXXFLAGS) -c $(PROJECT)B.cpp
 	@mv $(PROJECT)B.o puzzleB.o
 
 clean:
