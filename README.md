@@ -14,3 +14,4 @@ Day # | Problem Solved | Bonus Solved
 9|✅|✅
 10|✅|✅
 11|✅|✅
+12|✅|✅
